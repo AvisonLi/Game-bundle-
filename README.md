@@ -2,7 +2,7 @@ After unzipping the file you can open the game by clicking home.html.
 You can choose different games from the Home page.
 
 Word guessing game:
-Upon clicking the word guessing game, you will redirect to the main page of the game. In order to win the game, you need to guess the original word of the shuffled word. After you input your guesses, you can click confirm input button to check is your input correct. You can press the refresh word button to refresh the game if you are stuck.
+Upon clicking the word guessing game, you Will be redirected to the main page of the game. In order to win the game, you need to guess the original word of the shuffled word. After you input your guesses, you can click confirm input button to check is your input correct. You can press the refresh word button to refresh the game if you are stuck.
 
 Pong:
 Player1 WSAD to move 
