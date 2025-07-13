@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0,
+                                 maximum-scale=1.0, user-scalable=no"
+    />
+    <title>1v1 Pong Game</title>
+    <h1>1v1 Pong Game</h1>
+    <!--<audio controls autoplay>
+      <source src="Journey(chosic.com).mp3" type="audio/mpeg" />
+      unsupport mp3
+    </audio>-->
+    <!--internal css-->
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        height: 100vh;
+        background: black;
+        overflow: hidden; /* Prevent scrolling */
+      }
+      h1 {
+        margin: 0px;
+        margin-bottom: 10px;
+        font-size: 2.9em;
+        color: #fefeff;
+      }
+      .player1 {
+        position: absolute;
+        left: 200px;
+        width: 200px;
+        height: 120px;
+      }
+
+      .player2 {
+        position: absolute;
+        right: 200px;
+        width: 200px;
+        height: 120px;
+      }
+      
+      #exit {
+        background-color: DodgerBlue;
+        border: none;
+        color: white;
+        padding: 12px 16px;
+        font-size: 16px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+      }
+      
+      #exit:hover {
+        background-color: #008CBA;
+      }
+    </style>
+  </head>
+
+  <body>
+    <button id="exit" onClick="history.back()">Home Page</button>
+    <canvas id="pong_game"></canvas>
+    <!-- a div include 2 div inside in order to let them on the position i want-->
+    <div class="player1">
+      <div>
+        <p id="SLOWDOWN_P1"></p>
+        <p id="SPEEEEEED_P1"></p>
+        <p id="DYNAMAX_P1"></p>
+      </div>
+      <div style="text-align: center; color: white; font: 'Roboto'">
+        <p>W</p>
+        <p>A S D</p>
+        <p>C : SLOWDOWN</p>
+        <p>F : SPEEEEEED</p>
+        <p>G : DYNAMAX</p>
+      </div>
+    </div>
+    <!--ditto-->
+    <div class="player2">
+      <div>
+        <p id="SLOWDOWN_P2"></p>
+        <p id="SPEEEEEED_P2"></p>
+        <p id="DYNAMAX_P2"></p>
+      </div>
+      <div style="text-align: center; color: white; font: 'Roboto'">
+        <p>↑</p>
+        <p>← ↓ →</p>
+        <p>M : SLOWDOWN</p>
+        <p>K : SPEEEEEED</p>
+        <p>L : DYNAMAX</p>
+      </div>
+    </div>
+    <script src="player.js"></script>
+    <script src="ball.js"></script>
+    <script src="main.js"></script>
+    <!--use javascript in main.js with type "module" in order to use function etc-->
+  </body>
+</html>

@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-image: url('img/background.gif');
+  background-size: cover;
+  }
+
+  h1, p {
+  margin-top: 50px;
+  color: aliceblue;
+  }
+
+
+  .game-link {
+      display: inline-block;
+      margin-top: 20px;
+      margin-right: 10px;
+      text-decoration: none;
+      border-radius: 25px;
+  }
+
+  .image {
+      height: 250px;
+      width: 501px;
+      border-radius: 20px;
+  }
+
+  .image:hover {
+    opacity: 0.3;
+  }

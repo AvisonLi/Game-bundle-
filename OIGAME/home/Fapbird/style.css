@@ -1,0 +1,24 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: black;
+}
+
+#board{
+    background-color: black;
+    background-image: url("./HKMU.png");
+}
+
+#exit {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  #exit:hover {
+    background-color: #008CBA;
+  }

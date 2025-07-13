@@ -1,0 +1,87 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: url("guess.jpg")
+}
+.container{
+  width: 600px;
+  background: #ffffff;
+}
+.container h2{
+  font-weight: 500;
+  padding: 20px;
+}
+.container .content{
+  margin: 25px 20px 35px;
+}
+.content .word{
+  font-size: 35px;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 24px;
+  margin-right: -24px;
+  padding: 10px;
+  text-transform: uppercase;
+}
+.details p{
+  font-size: 19px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  text-align: center;
+}
+.content input{
+  width: 94%;
+  height: 60px;
+  padding: 16px;
+  font-size: 20px;
+}
+.content input:focus::placeholder{
+  color: #bfbfbf;
+}
+.content .buttons{
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+.buttons button{
+  border: none;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 15px 0;
+  font-size: 17px;
+  width: calc(100% / 2 - 8px);
+  transition: all 0.3s ease;
+}
+.buttons button:active{
+  transform: scale(0.97);
+}
+.buttons .refresh_word{
+  background: #6C757D;
+}
+.buttons .refresh_word:hover{
+  background: #3f4346;
+}
+.buttons .check_word{
+    background: #8eeddd;
+    color: black
+  }
+  .buttons .check_word:hover{
+    background: #54e3cb;
+  }
+
+  #exit {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  #exit:hover {
+    background-color: #008CBA;
+  }

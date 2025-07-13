@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Typing Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+      <button id="exit" onClick="history.back()">Home Page</button>
+      <div class="css">
+        <h1>Typing Game</h1>
+        <!--Game Details-->
+        <div class="info">
+          <div class="timecss">
+            <p id="time">Time: 60</p>
+          </div>
+          <div class="scorecss">
+            <p id="score">Score: 0</p>
+          </div>
+        </div>
+        <!--Main component-->
+        <p id="word">Word will show here</p>
+        <input type="text" id="input" placeholder="Answer here..." autofocus>
+        <button id="button_in_game" onClick="init(), countdown(), hidebutton(this)">Start</button>
+        <button id="button_in_game" onClick="window.location.reload();">Retry</button>
+      </div>
+    </main>
+
+  <script src="typing.js"></script>
+</body>
+</html>
