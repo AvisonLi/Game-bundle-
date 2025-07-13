@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Word Scramble Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="words.js"></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <button id="exit" onClick="history.back()">Home Page</button>
+    <div class="container">
+        <h2><img src="name.png" width="570" height="130"></h2>
+        <div class="content">
+            <p class="word"></p>
+            <div class="details">
+                <p class="hint">Hint: <span></span></p>
+            </div>
+            <input type="text" spellcheck="false" placeholder="Enter your guess here !">
+            <div class="buttons">
+                <button class="refresh_word">Refresh Word</button>
+                <button class="check_word">Confirm Input</button>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>

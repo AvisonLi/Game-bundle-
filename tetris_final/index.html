@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <script src="const.js"></script>
+</head>
+<body>
+  <button id="exit" onClick="history.back()">Home Page</button>
+  <h1>Tetris Game</h1>
+  <div id="screen">
+    <span id="prevl">Next:</span>
+    <span id="hold">Hold :</span>
+    <span id="score" name="score"></span>
+    <span id="level" name="level"></span>
+
+    </div class="sidepanel" id="holdpanel">
+    <canvas class="sidecanvas" id="store" height="200" width="150"></canvas>
+    </div>
+
+    <div id="container" >
+    <canvas width="320" height="640" id="game"></canvas>
+    </div>
+
+    <div class="sidepanel" id="prevpanel">
+    <canvas class="sidecanvas" id="preview" height="200" width="150"></canvas>
+    </div>
+
+    <div id="instructions">
+      <span id="key">Keys:</span><br>
+      <span> ← : move to left</span><br>
+      <span> → : move to right</span><br>
+      <span> ↑ : clockwise spin</span><br>
+      <span> ↓ : soft drop</span><br>
+      <span> z : anticlockwise spin</span><br>
+      <span> shift : hold</span>
+    </div>
+    <div id="gameover" width="12"><span id="over">GAMEOVER</span></div>
+  </div>
+  
+  <script src="main.js"></script>
+
+</body>
+</html>

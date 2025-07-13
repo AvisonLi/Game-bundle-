@@ -1,0 +1,122 @@
+#gameover{
+    background-color: red;
+    opacity:60%;
+    position:absolute;
+    top:50%;
+    width:100%;
+    font:bold;
+    font-size:60px;
+    font-family:Helvetica;
+    height:15%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    visibility:hidden;
+}
+
+span{
+    color:white;
+}
+#key{
+    align-self:center;
+}
+#instructions{
+    display:flex;
+    flex-direction:column;
+    position:absolute;
+    top:55%;
+    left:68%;
+}
+#screen{
+    display:flex;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+}
+
+#hold{
+    color:white;
+    position:absolute;
+    font-size:20px;
+    top:22%;
+    left:25%;
+}
+
+#prevl{
+    color:white;
+    position:absolute;
+    font-size:20px;
+    top:22%;
+    left: 71%;
+}
+
+h1{
+    color:white;
+    display:flex;
+    justify-content:center;
+}
+
+body {
+    background: black;
+}
+
+canvas {
+    border: 1px solid white;
+}
+
+#prevpanel{
+    color:white;
+}
+
+#holdpanel{
+    display:flex;
+    align-items:center;
+    justify-items:center;
+}
+
+#score{
+    color:white;
+    position:absolute;
+    left:22%;
+}
+
+#level{
+    color:white;
+    position:absolute;
+    left:27%;
+}
+
+#debug{
+    color:white;
+    position:relative;
+    
+}
+
+#store{
+    position:absolute;
+    left:21%;
+    top:20%;
+}
+
+#preview{
+    position:absolute;
+    top:20%;
+    left:68%
+}
+
+#container{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#exit{
+    background-color: yellow;
+    width:100%;
+    height:33.3%;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
